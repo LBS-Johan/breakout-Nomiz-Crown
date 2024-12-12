@@ -266,7 +266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 130233800}
   delay: 0.05
 --- !u!61 &130233805
 BoxCollider2D:
@@ -457,7 +456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 215512756}
   delay: 0.05
 --- !u!61 &215512761
 BoxCollider2D:
@@ -648,7 +646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 356592906}
   delay: 0.05
 --- !u!61 &356592911
 BoxCollider2D:
@@ -839,7 +836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 375381743}
   delay: 0.05
 --- !u!61 &375381748
 BoxCollider2D:
@@ -1455,7 +1451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 748624771}
   delay: 0.05
 --- !u!61 &748624776
 BoxCollider2D:
@@ -1714,7 +1709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 1120441910}
   delay: 0.05
 --- !u!61 &1120441915
 BoxCollider2D:
@@ -1925,7 +1919,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 586, y: 97}
+  m_AnchoredPosition: {x: 557, y: 97}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488285804
@@ -2114,7 +2108,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 1509783366}
   delay: 0.05
 --- !u!61 &1509783371
 BoxCollider2D:
@@ -2435,7 +2428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 1585305998}
   delay: 0.05
 --- !u!61 &1585306003
 BoxCollider2D:
@@ -2482,6 +2474,51 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1601056365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601056367}
+  - component: {fileID: 1601056366}
+  m_Layer: 0
+  m_Name: ScoreManagerObhect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1601056366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601056365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c76e8734438e3f4195a7bf39eec4bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 1488285804}
+--- !u!4 &1601056367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601056365}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1656127769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2728,7 +2765,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 1769759838}
   delay: 0.05
 --- !u!61 &1769759843
 BoxCollider2D:
@@ -2919,7 +2955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d00139be1de7942805cae8e0818da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Brick: {fileID: 1862481505}
   delay: 0.05
 --- !u!61 &1862481510
 BoxCollider2D:
@@ -3118,3 +3153,4 @@ SceneRoots:
   - {fileID: 356592909}
   - {fileID: 1656127773}
   - {fileID: 895186524}
+  - {fileID: 1601056367}

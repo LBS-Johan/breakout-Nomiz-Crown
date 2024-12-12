@@ -1,32 +1,22 @@
-using JetBrains.Annotations;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Grägas : MonoBehaviour
 {
-    public GameObject Brick;
-    public float delay;
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Brick.SetActive(true);
-    }
+    public float delay = 0.05f; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Invoke("DeactivateBrick", delay);
+        if (ScoreManager.Instance != null)
+        {
+            ScoreManager.Instance.AddScore(1);
+        }
+
+        Invoke(nameof(DeactivateBrick), delay);
     }
 
     private void DeactivateBrick()
     {
-        Brick.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
